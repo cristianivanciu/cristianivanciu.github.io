@@ -1,0 +1,31 @@
+#rate {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    background-color: greenyellow;
+    padding: 5px 10px;
+}
+#rateUSD {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    background-color: greenyellow;
+    padding: 5px 10px;
+}
+#rateGBP {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    background-color: greenyellow;
+    padding: 5px 10px;
+}
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    background-color: greenyellow;
+    padding: 5px 10px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+}
+#bitcoin {
+    background-color: rgb(197, 197, 197);
+}
