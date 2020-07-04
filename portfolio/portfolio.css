@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: sans-serif;
+    --my-color:  rgb(228, 122, 58);
+}
+nav {
+    background-color: var(--my-color);
+    text-align: right;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+li {
+    display: inline-block;
+    padding: 0.5em;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+nav li:first-child {
+    font-size: 1.2em;
+}
+#home {
+    background-image: url("headerback.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#overlay {
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100%;
+}
+#container {
+    position: absolute;
+    width: 70%;
+    height: 25%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+h1 {
+    color: var(--my-color);
+    font-size: 2.3em;
+}
+#home p {
+    font-size: 1.3em;
+    color: rgb(85, 85, 85);
+    font-family: "DIN Alternate";
+    width: 60%;
+    padding: 1em 0;
+}
+input[class="button"] {
+    background-color: var(--my-color);
+    color: white;
+    font-size: 1.3em;
+    border-style: none;
+    border-radius: 5px;
+    padding: 0.6em;
+    cursor: pointer;
+}
+input.button:hover {
+    color: rgb(228, 122, 58);
+    background: #000;
+}
+
+#about {
+    background-color: white;
+    padding: 3em 0;
+    text-align: center;
+    min-height: 100vh;
+}
+img { 
+    border-radius: 50%;
+    margin: 50px 10px;
+}
+#vl {
+    border-left: 4px solid rgb(64, 124, 134);
+    height: 400px;
+    display: inline-block;
+    margin: 0px 20px 0px;
+  }
+#foto {
+    display: inline-block;
+    font-size: 1em;
+    color: rgb(64, 124, 134);
+}
+#foto p {
+    margin-top: -40px;
+    font-family: sans-serif;
+}
+#descriere {
+    display: inline-block;
+    width: 40%;
+    vertical-align: 90px;
+    margin-top: 30px;
+}
+#descriere h2{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+    color: rgb(64, 124, 134);
+    text-align: left;
+    padding: 0px 0px 20px 0px;
+}
+#descriere p {
+    font-size: 1.1em;
+    color: rgb(134, 134, 134) ;
+    text-align: left;
+    line-height: 1.8;
+}
+#aboutme h1 {
+    font-family: sans-serif;
+    font-size: 2.5em;
+    color: rgb(228, 122, 58);
+    margin-bottom: 70px;
+    margin-top: 100px;
+}
+#team {
+    background-color: rgb(228, 227, 227);
+    padding: 3em 3em;  
+    min-height: 100vh;
+}
+#team h1 {
+    font-family: sans-serif;
+    font-size: 2.5em;
+    color: rgb(228, 122, 58);
+    margin-bottom: 70px;
+    margin-top: 100px;
+
+}
+
+#team2 img {
+    font-size: 1em;
+    border-radius: 0%;
+}
+#team3 img {
+    font-size: 1em;
+    border-radius: 0%;
+}
+#team4 img {
+    font-size: 1em;
+    border-radius: 0%;
+}
+#team5 img {
+    font-size: 1em;
+    border-radius: 0%;
+}
+
+#team2 p {
+    position: relative;
+    margin-top: -88px;
+    margin-left:10px;
+    width:250px;
+    background-color:rgb(228, 122, 58);
+    padding: 7px;
+    font-family: sans-serif;
+    border-radius: 0px 90px 0px 0px;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+}
+#team2 h3 {
+    margin-top: 5px;
+    margin-left:10px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: rgb(110, 110, 110);
+    text-align: left;
+}
+#team3 p {
+    position: relative;
+    margin-top: -88px;
+    margin-left:10px;
+    width:250px;
+    background-color: rgb(228, 122, 58);
+    padding: 7px;
+    font-family: sans-serif;
+    border-radius: 0px 900px 0px 0px;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+}
+#team3 h3 {
+    margin-top: 5px;
+    margin-left:10px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: rgb(110, 110, 110);
+    text-align: left;
+}
+#team4 p {
+    position: relative;
+    margin-top: -88px;
+    margin-left:10px;
+    width:250px;
+    background-color: rgb(228, 122, 58);
+    padding: 7px;
+    font-family: sans-serif;
+    border-radius: 0px 100px 0px 0px;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+}
+#team4 h3 {
+    margin-top: 5px;
+    margin-left:10px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: rgb(110, 110, 110);
+    text-align: left;
+}
+#team5 p {
+    position: relative;
+    margin-top: -88px;
+    margin-left:10px;
+    width:250px;
+    background-color: rgb(228, 122, 58);
+    padding: 7px;
+    font-family: sans-serif;
+    border-radius: 0px 900px 0px 0px;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+}
+#team5 h3 {
+    margin-top: 5px;
+    margin-left:10px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: rgb(110, 110, 110);
+    text-align: left;
+}
+span {
+    display: inline-block
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
