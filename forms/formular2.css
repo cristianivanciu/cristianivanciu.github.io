@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+form {
+    width: 70%;
+    padding: 25px; 
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(155, 155, 155);
+    position: absolute;
+   
+}
+input, select {
+    display: block;
+}
+input[type=text] {
+    width: 95%;
+    border: white;
+    border-bottom: 2px solid rgb(211, 211, 211);
+    padding: 10px 1px;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+input[type=email] {
+    width: 95%;
+    border: white;
+    border-bottom: 2px solid rgb(211, 211, 211);
+    padding: 10px 1px;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+input[type=tel] {
+    width: 95%;
+    border: white;
+    border-bottom: 2px solid rgb(211, 211, 211);
+    padding: 10px 1px;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+textarea {
+    width: 95%;
+    border: white;
+    border-bottom: 2px solid rgb(187, 187, 187);
+    padding: 10px 1px;
+    font-size: 20px;
+    resize: none;
+    height: 120px;
+}
+input[type=submit] {
+    width: 50%;
+    background: rgb(194,45,117);
+    background: linear-gradient(90deg, rgba(194,45,117,1) 0%, rgba(209,72,63,1) 100%);
+    color: white;
+    font-size: 15px;
+    padding: 15px 1px;
+    border-radius: 50px;
+    cursor: pointer; 
+    margin: 30px 0px 0px 150px;
+}
+input, label {
+padding: 1px;
+}
+h1 {
+    color: rgb(59, 59, 59);
+    margin-bottom: 50px;
+}
+::placeholder {
+    color: rgb(230, 228, 228);
+    font-size: 21px;
+}
